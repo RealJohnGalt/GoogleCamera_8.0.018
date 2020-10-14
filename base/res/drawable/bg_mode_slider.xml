@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/APKTOOL_DUMMY_1be" android:insetBottom="@dimen/APKTOOL_DUMMY_1be"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/APKTOOL_DUMMY_1bc" />
+        <size android:height="@dimen/APKTOOL_DUMMY_1bf" />
+        <solid android:color="@color/mode_slider_bg_color" />
+    </shape>
+</inset>

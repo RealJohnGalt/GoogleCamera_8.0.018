@@ -1,0 +1,23 @@
+.class public final Lgbq;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public final a:Landroid/content/Context;
+
+.field public final b:Lmwh;
+
+
+# direct methods
+.method public constructor <init>(Lmwh;Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lgbq;->b:Lmwh;
+
+    iput-object p2, p0, Lgbq;->a:Landroid/content/Context;
+
+    return-void
+.end method

@@ -1,0 +1,35 @@
+.class public final synthetic Lfti;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final a:Lftr;
+
+
+# direct methods
+.method public constructor <init>(Lftr;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lfti;->a:Lftr;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    iget-object v0, p0, Lfti;->a:Lftr;
+
+    iget-object v0, v0, Lftr;->p:Landroid/media/ImageReader;
+
+    invoke-virtual {v0}, Landroid/media/ImageReader;->close()V
+
+    return-void
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="30.0dip" android:paddingEnd="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceHeadline5" android:gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:fontFamily="@font/google_sans_medium" />
+    <TextView android:textAppearance="?textAppearanceBody2" android:textColor="@color/google_white" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <com.google.android.apps.camera.ui.eduimageview.EduImageView android:id="@id/gif_sxs" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_marginTop="24.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="48.0dip">
+        <TextView android:textAppearance="?textAppearanceBody2" android:textColor="@color/google_white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/stabilization_edu_caption_unstabilized" android:layout_weight="0.5" android:importantForAccessibility="no" />
+        <Space android:layout_width="10.0dip" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?textAppearanceBody2" android:textColor="@color/google_white" android:gravity="center" android:id="@id/caption_stabilized" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

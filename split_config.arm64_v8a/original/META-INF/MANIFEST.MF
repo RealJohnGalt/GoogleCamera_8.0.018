@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Built-By: BundleTool
+Created-By: BundleTool
+
+Name: AndroidManifest.xml
+SHA1-Digest: rMEfeIzvhlvNErMzeRcYnc2caYo=
+
+Name: lib/arm64-v8a/libEjNyXx3Mc1.so
+SHA1-Digest: V3FjimYkPDolmmbijazJl/y1hVE=
+
+Name: lib/arm64-v8a/libSeeDarkJni.so
+SHA1-Digest: H4KvZY0tdAiPMnR7vK8bZbQZ+14=
+
+Name: lib/arm64-v8a/libaspect_scorer_jni.so
+SHA1-Digest: OQsd5McLkrfDGFSGT1d5BrykVCA=
+
+Name: lib/arm64-v8a/libcyclops.so
+SHA1-Digest: wM1jUvbdGMT/0h4svb3yUfqk/W0=
+
+Name: lib/arm64-v8a/libeglimage.so
+SHA1-Digest: vI0pL36F6St47irVpoQeO/Iuo2k=
+
+Name: lib/arm64-v8a/libgcamuxer.so
+SHA1-Digest: 1XKhIWQOsBWH/sZaV3RagRv/zhw=
+
+Name: lib/arm64-v8a/libgcastartup.so
+SHA1-Digest: aUSJWdDT/VArYSlEI+CfXFSQt6E=
+
+Name: lib/arm64-v8a/libgpu-retouching-jni.so
+SHA1-Digest: 2SfXaUAyzcEM3QbBDXYauTPfe44=
+
+Name: lib/arm64-v8a/libhalide_hexagon_host.so
+SHA1-Digest: CF7Bp9akJKSSRsSCpBSoGpF8kUg=
+
+Name: lib/arm64-v8a/liblightcycle.so
+SHA1-Digest: rakoJIkX0gfQjvaRQa7uMkvLtVY=
+
+Name: lib/arm64-v8a/libnative.so
+SHA1-Digest: Kjx/RFPE37DOhSpO/C2ia53ju5Q=
+
+Name: lib/arm64-v8a/liboliveoil.so
+SHA1-Digest: XQY9QZLpR/qc5muvyboDcTHqUus=
+
+Name: lib/arm64-v8a/libsmartcapture_native.so
+SHA1-Digest: KoNMAjB2JyGBQuXoWoUrjM3PWgY=
+
+Name: stamp-cert-sha256
+SHA1-Digest: 5vTkm69vqAbusD/fho7oWwc7j+I=
+

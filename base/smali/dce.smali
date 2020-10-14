@@ -1,0 +1,39 @@
+.class public final synthetic Ldce;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljhx;
+
+
+# instance fields
+.field public final a:Ldcr;
+
+
+# direct methods
+.method public constructor <init>(Ldcr;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ldce;->a:Ldcr;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    iget-object v0, p0, Ldce;->a:Ldcr;
+
+    const-string v1, "ShotTracker#checkForLostShots"
+
+    invoke-static {v1}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
+
+    invoke-interface {v0}, Ldcr;->b()V
+
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+
+    return-void
+.end method

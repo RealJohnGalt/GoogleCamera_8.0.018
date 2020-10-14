@@ -1,0 +1,37 @@
+.class public final synthetic Lozg;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lpyj;
+
+
+# instance fields
+.field public final a:Lrof;
+
+
+# direct methods
+.method public constructor <init>(Lrof;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lozg;->a:Lrof;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lozg;->a:Lrof;
+
+    check-cast v0, Lozk;
+
+    invoke-virtual {v0}, Lozk;->a()Lozj;
+
+    move-result-object v0
+
+    return-object v0
+.end method

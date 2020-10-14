@@ -1,0 +1,32 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: split_config.arm64_v8a.apk
+compressionType: false
+doNotCompress:
+- lib/arm64-v8a/libEjNyXx3Mc1.so
+- lib/arm64-v8a/libSeeDarkJni.so
+- lib/arm64-v8a/libaspect_scorer_jni.so
+- lib/arm64-v8a/libcyclops.so
+- lib/arm64-v8a/libeglimage.so
+- lib/arm64-v8a/libgcamuxer.so
+- lib/arm64-v8a/libgcastartup.so
+- lib/arm64-v8a/libgpu-retouching-jni.so
+- lib/arm64-v8a/libhalide_hexagon_host.so
+- lib/arm64-v8a/liblightcycle.so
+- lib/arm64-v8a/libnative.so
+- lib/arm64-v8a/liboliveoil.so
+- lib/arm64-v8a/libsmartcapture_native.so
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  stamp-cert-sha256: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '63653876'
+  versionName: null

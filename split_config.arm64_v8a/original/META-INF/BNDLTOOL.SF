@@ -1,0 +1,50 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: my61n7nrQilvJihXeEJZ9DVMZ68=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: QnWyna94Wm0JpuLBGk/rXPep9hA=
+
+Name: lib/arm64-v8a/libEjNyXx3Mc1.so
+SHA1-Digest: v/itGf1fX47UABSmtWnCZ/7JE+8=
+
+Name: lib/arm64-v8a/libSeeDarkJni.so
+SHA1-Digest: 9pv+US242bPBGYEGj8qkEnyoBJY=
+
+Name: lib/arm64-v8a/libaspect_scorer_jni.so
+SHA1-Digest: UBSqutPczFY2Q/buGRcb0ZC5L98=
+
+Name: lib/arm64-v8a/libcyclops.so
+SHA1-Digest: oa77Y+20oiw/lt2Ud+QoT9TWR0M=
+
+Name: lib/arm64-v8a/libeglimage.so
+SHA1-Digest: e3xRIDQ/hXxSn+6Ap/uww95i0VA=
+
+Name: lib/arm64-v8a/libgcamuxer.so
+SHA1-Digest: e8GrlmGA1Hg4yn0P48FlV/IDBgY=
+
+Name: lib/arm64-v8a/libgcastartup.so
+SHA1-Digest: ji5YwuM04+/NrIgqOj5BM721v1U=
+
+Name: lib/arm64-v8a/libgpu-retouching-jni.so
+SHA1-Digest: e39Gu68n0Yl/MITedA9u9LIssh4=
+
+Name: lib/arm64-v8a/libhalide_hexagon_host.so
+SHA1-Digest: NnOpkB0EZrmEPJKcj5s/8/TPwe4=
+
+Name: lib/arm64-v8a/liblightcycle.so
+SHA1-Digest: dYawmhhOnmPk+mqNz2kKmnXPZZI=
+
+Name: lib/arm64-v8a/libnative.so
+SHA1-Digest: 43AjLqqTzEgd9aS1E/yqEvZMc7g=
+
+Name: lib/arm64-v8a/liboliveoil.so
+SHA1-Digest: lXvKW35edW1B02yud6R4FhTGKlc=
+
+Name: lib/arm64-v8a/libsmartcapture_native.so
+SHA1-Digest: 3GCg+UyeEfYdSZHsb1VpwGRVBbI=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

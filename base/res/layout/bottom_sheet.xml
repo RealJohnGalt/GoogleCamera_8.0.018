@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <ImageView android:id="@id/bottom_sheet_animation" android:layout_width="362.0dip" android:layout_height="266.0dip" android:src="@drawable/astro_animation" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="11.0dip" android:paddingEnd="11.0dip">
+            <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/APKTOOL_DUMMY_2f3" android:scaleType="center" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/google_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/astro_line_1" android:lineHeight="20.0sp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="11.0dip" android:paddingEnd="11.0dip">
+            <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/APKTOOL_DUMMY_2ae" android:scaleType="center" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/google_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/astro_line_2" android:lineHeight="20.0sp" />
+        </LinearLayout>
+        <com.google.android.apps.camera.ui.eduimageview.EduImageView android:id="@id/bottom_sheet_image" android:layout_width="362.0dip" android:layout_height="227.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="48.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+</merge>
