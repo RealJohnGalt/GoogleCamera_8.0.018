@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearanceBody2" android:textSize="14.0sp" android:textColor="@color/google_white" android:id="@id/retouching_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/retouching_edu_desc" android:fontFamily="roboto" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:lineHeight="20.0sp" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/retouching_edu_optionbar" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/retouching_edu_off" android:background="@drawable/retouching_edu_option_unselected" android:layout_width="wrap_content" android:layout_height="32.0dip">
+                <ImageView android:padding="0.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_faceretouch_off" android:layout_marginStart="8.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/google_white" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/faceretouch_off_option_desc" android:fontFamily="@font/google_sans_medium" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" android:lineHeight="20.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/retouching_edu_light" android:background="@drawable/retouching_edu_option_selected" android:layout_width="wrap_content" android:layout_height="32.0dip">
+                <ImageView android:padding="0.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_faceretouch_on_light" android:layout_marginStart="8.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/google_white" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/faceretouch_on_light_option_desc" android:fontFamily="@font/google_sans_medium" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" android:lineHeight="20.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/retouching_edu_strong" android:background="@drawable/retouching_edu_option_unselected" android:layout_width="wrap_content" android:layout_height="32.0dip">
+                <ImageView android:padding="0.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_faceretouch_on_strong" android:layout_marginStart="8.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/google_white" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/faceretouch_on_strong_option_desc" android:fontFamily="@font/google_sans_medium" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" android:lineHeight="20.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/example_images_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="@color/google_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/retouching_edu_disc" android:fontFamily="roboto" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:lineHeight="16.0sp" />
+        <com.google.android.material.button.MaterialButton android:textColor="@color/google_blue300" android:id="@id/apply_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/retouching_edu_apply" android:fontFamily="@font/google_sans_medium" android:layout_marginHorizontal="24.0dip" android:layout_marginVertical="18.0dip" android:paddingVertical="8.0dip" android:lineHeight="20.0sp" app:backgroundTint="@color/google_grey800" app:backgroundTintMode="src_atop" app:cornerRadius="4.0dip" app:rippleColor="#33ffffff" style="@style/Widget.GoogleMaterial.Button" />
+    </LinearLayout>
+</merge>

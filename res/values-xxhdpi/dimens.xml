@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mode_slider_bg_radius">84.0px</dimen>
+    <dimen name="mode_slider_bottom_margin">5.0px</dimen>
+    <dimen name="mode_slider_expand_touch_area_size">16.0px</dimen>
+    <dimen name="mode_slider_height">95.0px</dimen>
+    <dimen name="mode_slider_knob_bg_radius">84.0px</dimen>
+    <dimen name="mode_slider_knob_height">84.0px</dimen>
+    <dimen name="mode_slider_knob_width">257.0px</dimen>
+    <dimen name="mode_slider_mode_side_padding">26.0px</dimen>
+    <dimen name="mode_slider_mode_text_letter_spacing">0.6600001px</dimen>
+    <dimen name="mode_slider_mode_text_size">32.0px</dimen>
+    <dimen name="mode_slider_side_padding">5.0px</dimen>
+    <dimen name="record_speed_slider_arrow_min_width">110.0px</dimen>
+    <dimen name="record_speed_slider_bg_radius">84.0px</dimen>
+    <dimen name="record_speed_slider_bottom_margin">5.0px</dimen>
+    <dimen name="record_speed_slider_drawable_left_padding">16.0px</dimen>
+    <dimen name="record_speed_slider_expand_touch_area_size">16.0px</dimen>
+    <dimen name="record_speed_slider_height">95.0px</dimen>
+    <dimen name="record_speed_slider_knob_compound_padding_between_text">2.0px</dimen>
+    <dimen name="record_speed_slider_knob_height">84.0px</dimen>
+    <dimen name="record_speed_slider_knob_max_width">158.0px</dimen>
+    <dimen name="record_speed_slider_knob_max_width_large">197.0px</dimen>
+    <dimen name="record_speed_slider_knob_max_width_medium">176.0px</dimen>
+    <dimen name="record_speed_slider_knob_min_width">137.0px</dimen>
+    <dimen name="record_speed_slider_knob_min_width_large">171.0px</dimen>
+    <dimen name="record_speed_slider_knob_min_width_medium">150.0px</dimen>
+    <dimen name="record_speed_slider_option_side_padding">8.0px</dimen>
+    <dimen name="record_speed_slider_side_padding">5.0px</dimen>
+    <dimen name="record_speed_slider_text_letter_spacing">0.656px</dimen>
+    <dimen name="record_speed_slider_text_size">32.0px</dimen>
+    <dimen name="record_speed_slider_tooltip_padding">13.0px</dimen>
+</resources>

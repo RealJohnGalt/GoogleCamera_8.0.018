@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/stab_button_place_holder" android:background="@color/transparent" android:padding="@dimen/stab_button_place_holder_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/stab_button_place_holder_right_margin" android:soundEffectsEnabled="false">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/stab_button_drawer" android:background="@drawable/stab_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="center" android:id="@id/stab_button" android:background="@drawable/stab_button_bg" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

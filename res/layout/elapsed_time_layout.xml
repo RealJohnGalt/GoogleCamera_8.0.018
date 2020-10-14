@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/recording_timer" style="@style/onVideoRecordingCounter" />
+    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/output_timer" android:visibility="gone" style="@style/onVideoRecordingCounter" />
+</merge>
