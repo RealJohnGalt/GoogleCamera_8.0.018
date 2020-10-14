@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.google.android.GoogleCamera" platformBuildVersionCode="30" platformBuildVersionName="11">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.google.android.GoogleCameraNext" platformBuildVersionCode="30" platformBuildVersionName="11">
     <original-package android:name="com.android.camera2"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -79,7 +79,7 @@
         <package android:name="com.google.android.wearable.app"/>
     </queries>
     <uses-feature android:name="android.hardware.camera"/>
-    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.camera.backup.CameraBackupAgent" android:extractNativeLibs="false" android:fullBackupOnly="false" android:hardwareAccelerated="true" android:icon="@mipmap/adaptiveproduct_pixelcamera" android:isSplitRequired="true" android:label="@string/app_name" android:largeHeap="true" android:name="com.google.android.apps.camera.ui.widget.auth.Application" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/Theme.Camera" android:usesCleartextTraffic="false">
+    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.camera.backup.CameraBackupAgent" android:extractNativeLibs="true" android:fullBackupOnly="false" android:hardwareAccelerated="true" android:icon="@mipmap/adaptiveproduct_pixelcamera" android:isSplitRequired="true" android:label="Camera PX6" android:largeHeap="true" android:name="com.google.android.apps.camera.ui.widget.auth.Application" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/Theme.Camera" android:usesCleartextTraffic="false">
         <uses-library android:name="com.google.android.gestureservice" android:required="false"/>
         <uses-library android:name="com.google.android.camera2" android:required="false"/>
         <uses-library android:name="com.google.android.camera.experimental2015" android:required="false"/>
@@ -170,9 +170,9 @@
         </activity-alias>
         <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="true" android:label="@string/mode_settings" android:name="com.google.android.apps.camera.legacy.app.settings.CameraSettingsActivity" android:theme="@style/Theme.CameraSettings"/>
         <service android:exported="false" android:name="com.google.android.apps.camera.app.silentfeedback.SilentFeedbackService" android:process=":crash_report"/>
-        <provider android:authorities="com.google.android.GoogleCamera.DebugContentProvider" android:exported="true" android:name="com.google.android.apps.camera.debug.contentprovider.DebugContentProvider"/>
-        <provider android:authorities="com.google.android.GoogleCamera.DbDebugDumper" android:exported="true" android:name="com.google.android.apps.camera.debug.shottracker.db.DbDebugDumper"/>
-        <provider android:authorities="com.google.android.GoogleCamera.MetricsProvider" android:exported="true" android:name="com.google.android.apps.camera.debug.metrics.MetricsProvider"/>
+        <provider android:authorities="com.google.android.GoogleCameraNext.DebugContentProvider" android:exported="true" android:name="com.google.android.apps.camera.debug.contentprovider.DebugContentProvider"/>
+        <provider android:authorities="com.google.android.GoogleCameraNext.DbDebugDumper" android:exported="true" android:name="com.google.android.apps.camera.debug.shottracker.db.DbDebugDumper"/>
+        <provider android:authorities="com.google.android.GoogleCameraNext.MetricsProvider" android:exported="true" android:name="com.google.android.apps.camera.debug.metrics.MetricsProvider"/>
         <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.camera" android:resource="@xml/com_google_android_apps_camera_phenotype_release"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService" android:process="">
             <intent-filter>
@@ -197,7 +197,7 @@
         </service>
         <meta-data android:name="com.android.device.restriction" android:value="           brand=google, deviceName=bramble;           brand=google, deviceName=redfin;"/>
         <provider android:authorities="com.google.android.apps.camera.specialtypes.SpecialTypesProvider" android:exported="true" android:name="com.google.android.apps.camera.contentprovider.CameraContentProvider" android:syncable="false"/>
-        <provider android:authorities="com.google.android.GoogleCamera" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.apps.camera.legacy.app.settings.CameraSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+        <provider android:authorities="com.google.android.GoogleCameraPX6" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.apps.camera.legacy.app.settings.CameraSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
             <intent-filter>
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
             </intent-filter>
@@ -233,7 +233,7 @@
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.google.android.GoogleCamera.brella.trainingservice.provider" android:exported="false" android:initOrder="0x7FFFFFFF" android:multiprocess="false" android:name="com.google.android.gms.learning.internal.BackgroundProcessDetectorContentProvider" android:process=":learning_bg"/>
+        <provider android:authorities="com.google.android.GoogleCameraNext.brella.trainingservice.provider" android:exported="false" android:initOrder="0x7FFFFFFF" android:multiprocess="false" android:name="com.google.android.gms.learning.internal.BackgroundProcessDetectorContentProvider" android:process=":learning_bg"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.learning.internal.training.InAppJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.learning.internal.training.InAppTrainingService" android:process=":learning_bg">
             <intent-filter>

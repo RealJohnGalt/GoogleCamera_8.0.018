@@ -28,7 +28,7 @@
 
 .field private static loggingEnabled:Ljava/lang/String; = "false"
 
-.field private static packageName:Ljava/lang/String; = "com.google.android.GoogleCamera"
+.field private static packageName:Ljava/lang/String; = "com.google.android.GoogleCameraNext"
 
 
 # direct methods
